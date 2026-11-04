@@ -1,10 +1,8 @@
-# Breast Cancer Classification - ML Assignment 2
+# Breast Cancer Classification - ML Assignment 2 - 2026aj05046
 
 ## Problem Statement
 Compare five classification algorithms for identifying
 benign and malignant tumors using diagnostic measurements.
-
-This project is for educational use only.
 
 ## Dataset Description
 - Source: UCI Breast Cancer Wisconsin (Diagnostic)
@@ -67,10 +65,12 @@ SVM is selected using MCC as the primary ranking metric,
 followed by F1 and AUC.
 
 ## GitHub Repository
-Add your actual repository URL here.
+
+https://github.com/2026aj05046-sudo/ML_Assignment_2/tree/main
+
 
 ## Streamlit Application
-Add your live Streamlit URL after deployment.
+https://ml-assignment-2-2026aj05046.streamlit.app/
 
 ## How to Run
 1. Install dependencies: pip install -r requirements.txt

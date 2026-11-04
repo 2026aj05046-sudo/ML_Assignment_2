@@ -78,7 +78,3 @@ https://ml-assignment-2-2026aj05046.streamlit.app/
 3. Upload test_data.csv
 4. Select one of the five trained models
 5. View metrics, confusion matrix and classification report
-
-## Limitations
-This is a classroom experiment on a small held-out test set.
-The results do not establish clinical suitability.

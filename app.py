@@ -16,9 +16,9 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Breast Cancer Classification")
-st.write("BITS Pilani | Machine Learning Assignment 2")
-st.warning("For educational use only. Not a medical diagnostic tool.")
+st.title("Breast Cancer Classification_Assignment2")
+st.write("Machine Learning Assignment 2")
+st.warning("This is my assignment | BITS ID 2026aj05046")
 
 MODEL_FILES = {
     "Logistic Regression": "logistic_regression.joblib",

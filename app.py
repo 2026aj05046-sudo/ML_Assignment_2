@@ -39,11 +39,34 @@ def load_features():
 
 feature_names = load_features()
 
-st.subheader("Step 1: Upload Test CSV")
-uploaded_file = st.file_uploader(
-    "Upload labeled test_data.csv",
-    type=["csv"]
+
+st.subheader("Step 1: Select Test Dataset")
+
+data_source = st.radio(
+    "Choose how to load test data",
+    [
+        "Use Default Test Dataset",
+        "Upload Custom CSV"
+    ],
+    horizontal=True
 )
+
+if data_source == "Use Default Test Dataset":
+
+    uploaded_file = BASE_DIR / "test_data.csv"
+
+    st.success(
+        "Default test_data.csv loaded automatically "
+        "from the application repository."
+    )
+
+else:
+
+    uploaded_file = st.file_uploader(
+        "Upload your labeled CSV file",
+        type=["csv"]
+    )
+
 
 st.subheader("Step 2: Select Model")
 selected_model = st.selectbox(
